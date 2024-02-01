@@ -49,3 +49,18 @@ buildArray.unshift()//9 will be remove from array
 console.log(buildArray);
 console.log(buildArray.includes(4)) //if 4 are avialble in array i will give you true ..based on boolean
 console.log(buildArray.indexOf(3))
+const buildArray2= buildArray.join();//join will get all the element from bulidarray and convert it into string with no braket
+console.log (buildArray2)
+console.log(buildArray)
+
+// COMBAINING TWO ARRAY
+
+const buildArray3=["shaktiman","shaktiman1","shaktiman2","shaktiman3","shaktiman4"]
+const buildArray4=["spiderman","spiderman1","spiderman2","spiderman3","spiderman4"] //1st method
+const buildArray5=buildArray3.concat(buildArray4)
+console.log(buildArray5)
+
+const marvelHero=["thor","ironman","spiderman"];
+const dcHero=["superman","flash","batman"]//2nd method .there is also other method
+const allHeros=[...marvelHero,...dcHero]
+console.log(allHeros)
