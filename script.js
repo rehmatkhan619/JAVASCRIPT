@@ -117,24 +117,42 @@
 
 // OBJECT IN ARRAY
 
-tinderUser={
-  id:"02",
-  name:"jennay",
-  loggedIn:true
-}
-const fbUser=[
-  {
-    id:"1",
-    gmail:"king@gamil.com",
+// const tinderUser={
+//   id:"02",
+//   name:"jennay",
+//   loggedIn:true
+// }
+// const fbUser=[
+//   {
+//     id:"1",
+//     gmail:"king@gamil.com",
 
-  },
-  {
-    id:"2",
-    gmail:"queen@gamil.com",
+//   },
+//   {
+//     id:"2",
+//     gmail:"queen@gamil.com",
     
-  }
-]
-console.log(tinderUser)
-console.log(fbUser[0].gmail)
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser))
+//   }
+// ]
+// console.log(tinderUser)
+// console.log(fbUser[0].gmail)
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+// console.log(tinderUser.hasOwnProperty("name"))
+
+// DESTRUCTION IN OBJECT
+
+   const subject={
+    course:"Web Devlopment",
+    courseInstructor: "Jhonevick",
+    price:"$999"
+   }
+ 
+  //  const{courseInstructor}=subject;
+  //console.log(courseInstructor)
+
+  /////// Or make it more simple u can do both method
+
+  const{courseInstructor:teacher}=subject;
+   console.log(teacher)
