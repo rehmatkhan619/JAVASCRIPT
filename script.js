@@ -20,5 +20,10 @@
       userTwo.email="smith@gmail.com"
       console.log(userOne.email);  // smith@gmail.com
       console.log(userTwo.email);  //smith@gmail.com
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+            //  DATE
+          let myDate= new Date()
+          console.log(myDate.toString())  
+          console.log(myDate.toISOString()) 
+          console.log(myDate.toJSON())   
+          console.log(myDate.toLocaleString())  
