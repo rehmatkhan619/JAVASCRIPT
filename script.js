@@ -102,15 +102,39 @@
 // instaUser.email="cason@gmail.com";
 // console.log(instaUser.email)
 
-//FUNCTION INSIDE AND OUT SIDE OF OBECT
-const greeting1={
-  name: "jhone",
-  email: "jhone@gmail.com",
-  age: 20,
-  bio: "i am a student",
-  "hobbies": "football",
-  messaage:function(){
-    console.log(`hello and welcome to to isntagram ,${name}`)
-  }
-}
+// OBJECT INSIDE OF OBJECT
+// const instaUser = {
+//   id: "012",
+//   userName: {
+//     userFullName: {
+//       userFirstName: "Nichal",
+//       userLastName: "watson"
 
+//     }
+//   }
+// }
+// console.log(instaUser.userName.userFullName.userFirstName+" "+instaUser.userName.userFullName.userLastName)
+
+// OBJECT IN ARRAY
+
+tinderUser={
+  id:"02",
+  name:"jennay",
+  loggedIn:true
+}
+const fbUser=[
+  {
+    id:"1",
+    gmail:"king@gamil.com",
+
+  },
+  {
+    id:"2",
+    gmail:"queen@gamil.com",
+    
+  }
+]
+console.log(tinderUser)
+console.log(fbUser[0].gmail)
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser))
