@@ -21,9 +21,15 @@
       console.log(userOne.email);  // smith@gmail.com
       console.log(userTwo.email);  //smith@gmail.com
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
-            //  DATE
+            //  DATE   .....date is object
           let myDate= new Date()
           console.log(myDate.toString())  
           console.log(myDate.toISOString()) 
           console.log(myDate.toJSON())   
           console.log(myDate.toLocaleString())  
+          
+          //you can creat your own date 
+          let myCreatedDate=new Date(2000 ,4,15)
+          console.log(myCreatedDate.toDateString())
+          let myCreatedDate2=new Date(2000 ,4,15 ,3,4)
+          console.log(myCreatedDate2 .toLocaleString())
