@@ -69,29 +69,34 @@ console.log(allHeros)
 // extra info intresting for interviwe
 console.log(Array.isArray("Rehmat")) //flase
 console.log(Array.from("Rehmat"))   // ['R', 'e', 'h', 'm', 'a', 't']
-console.log(Array.from({Name:"Rehmat"}))//  []  give empty array..js get confuse in should i make asrray of key(Name) or value(Rehmat)
+console.log(Array.from({ Name: "Rehmat" }))//  []  give empty array..js get confuse in should i make asrray of key(Name) or value(Rehmat)
 
 //converting number to string 
-score1=200;
-score2=300;
-score3=400;
-console.log(Array.of(score1,score2,score3)) // [200, 300, 400]
+score1 = 200;
+score2 = 300;
+score3 = 400;
+console.log(Array.of(score1, score2, score3)) // [200, 300, 400]
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
-            //OBJECTS
-          const mySum= Symbol("myKey")  //using symbol in object
-    const instaUser={
-      name: "jhone",
-      email: "jhone@gmail.com",
-      age: 20,
-      bio: "i am a student",
-      "hobbies":"football",
-      [mySum]: "mySum"
+//OBJECTS
+const mySum = Symbol("myKey")  //using symbol in object
+const instaUser = {
+  name: "jhone",
+  email: "jhone@gmail.com",
+  age: 20,
+  bio: "i am a student",
+  "hobbies": "football",
+  [mySum]: "mySum"
 
-    }
-    console.log(instaUser.name)// jhone
-    console.log(instaUser.email)// jhone@gmail.com
-    console.log(instaUser.age)// 20
-    console.log(instaUser.bio)// i am a student
-    console.log(instaUser["hobbies"])// football you have to do this if your key is in string
-    console.log(instaUser[mySum])// 100
+}
+console.log(instaUser.name)// jhone
+console.log(instaUser.email)// jhone@gmail.com
+console.log(instaUser.age)// 20
+console.log(instaUser.bio)// i am a student
+console.log(instaUser["hobbies"])// football you have to do this if your key is in string
+console.log(instaUser[mySum])// calling symbol this
+
+
+
+
+
