@@ -33,3 +33,19 @@
           console.log(myCreatedDate.toDateString())
           let myCreatedDate2=new Date(2000 ,4,15 ,3,4)
           console.log(myCreatedDate2 .toLocaleString())
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+     // ARRAY  ...
+
+     const myArray= [1,2,3,4,5,6,7,8,9]//element inside can be nmber ,string and boo
+     console.log(myArray[3])  //4
+
+       // Array methods
+
+const buildArray=[1,2,3,4,5]
+buildArray.push(6)//this will add "6" to array
+buildArray.pop()//arrgument should be empty and last elemenet will be remove from array
+buildArray.unshift(9)//9 will bwe added to array but in first
+buildArray.unshift()//9 will be remove from array
+console.log(buildArray);
+console.log(buildArray.includes(4)) //if 4 are avialble in array i will give you true ..based on boolean
+console.log(buildArray.indexOf(3))
