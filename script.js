@@ -92,23 +92,23 @@
 // console.log(Array.of(score1, score2, score3)) // [200, 300, 400]
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
-//OBJECTS
-// const mySum = Symbol("myKey")  //using symbol in object
-// const instaUser = {
-//   name: "jhone",
-//   email: "jhone@gmail.com",
-//   age: 20,
-//   bio: "i am a student",
-//   "hobbies": "football",
-//   [mySum]: "mySum"
+// OBJECTS
+const mySum = Symbol("myKey")  //using symbol in object
+const instaUser = {
+  name: "jhone",
+  email: "jhone@gmail.com",
+  age: 20,
+  bio: "i am a student",
+  "hobbies": "football",
+  [mySum]: "mySum"
 
-// }
-// console.log(instaUser.name)// jhone
-// console.log(instaUser.email)// jhone@gmail.com
-// console.log(instaUser.age)// 20
-// console.log(instaUser.bio)// i am a student
-// console.log(instaUser["hobbies"])// football you have to do this if your key is in string
-// console.log(instaUser[mySum])// calling symbol this
+}
+console.log(instaUser.name)// jhone
+console.log(instaUser.email)// jhone@gmail.com
+console.log(instaUser.age)// 20
+console.log(instaUser.bio)// i am a student
+console.log(instaUser["hobbies"])// football you have to do this if your key is in string
+console.log(instaUser[mySum])// calling symbol this
 
 // //changing value in object from outside
 // instaUser.email="watson@gmail.com";
@@ -127,6 +127,7 @@
 //     }
 //   }
 // }
+
 // console.log(instaUser.userName.userFullName.userFirstName+" "+instaUser.userName.userFullName.userLastName)
 
 // OBJECT IN ARRAY
@@ -136,6 +137,7 @@
 //   name:"jennay",
 //   loggedIn:true
 // }
+
 // const fbUser=[
 //   {
 //     id:"1",
@@ -162,6 +164,7 @@
 //     courseInstructor: "Jhonevick",
 //     price:"$999"
 //    }
+
  
 //   //  const{courseInstructor}=subject;
 //   //console.log(courseInstructor)
