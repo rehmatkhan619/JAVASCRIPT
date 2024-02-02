@@ -53,17 +53,31 @@
 // console.log(buildArray2)
 // console.log(buildArray)
 
-// COMBAINING TWO ARRAY
+// // COMBAINING TWO ARRAY
 
 // const buildArray3 = ["shaktiman", "shaktiman1", "shaktiman2", "shaktiman3", "shaktiman4"]
-// const buildArray4 = ["spiderman", "spiderman1", "spiderman2", "spiderman3", "spiderman4"] //1st method
-// const buildArray5 = buildArray3.concat(buildArray4)
-// console.log(buildArray5)
+//  const buildArray4 = ["spiderman", "spiderman1", "spiderman2", "spiderman3", "spiderman4"] //1st method
+//  const buildArray5 = buildArray3.concat(buildArray4)
+//  console.log(buildArray5)
 
+//  const ARRAY1= [1,2,3,4];
+//  const ARRAY2=[4,5,6,7];
+//  const addArray= new Set ([...ARRAY1,...ARRAY2])// make new set of array and exclude duplicate value
+//  console.log(addArray)
+
+//  const ARRAY4= [1,2,3,4];
+//  const ARRAY5=[4,5,6,7];
+//  const addArray2=  [...ARRAY4,...ARRAY5] //spread methode will duplicate and copy of given two set
+//    console.log(addArray2)
+
+//  const ARRAY6= [1,2,3,4];
+//  const ARRAY7=[4,5,6,7];
+//  const addArray3= new Set ([...ARRAY6,...ARRAY7])
+//  console.log(addArray3)
 // const marvelHero = ["thor", "ironman", "spiderman", "idk"];
 // const dcHero = ["superman", "flash", "batman", "idk"]//2nd method .there is also other method
-// const allHeros = [...marvelHero, ...dcHero]
-// console.log(allHeros)
+//  const allHeros = [...marvelHero, ...dcHero]
+//  console.log(allHeros)
 
 
 // // extra info intresting for interviwe
@@ -143,16 +157,16 @@
 
 // DESTRUCTION IN OBJECT
 
-   const subject={
-    course:"Web Devlopment",
-    courseInstructor: "Jhonevick",
-    price:"$999"
-   }
+//    const subject={
+//     course:"Web Devlopment",
+//     courseInstructor: "Jhonevick",
+//     price:"$999"
+//    }
  
-  //  const{courseInstructor}=subject;
-  //console.log(courseInstructor)
+//   //  const{courseInstructor}=subject;
+//   //console.log(courseInstructor)
 
-  /////// Or make it more simple u can do both method
+//   /////// Or make it more simple u can do both method
 
-  const{courseInstructor:teacher}=subject;
-   console.log(teacher)
+//   const{courseInstructor:teacher}=subject;
+//    console.log(teacher)
